@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ClassworkPractice7
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=chickens\ babyMars
+comment2.target=double\ amountProtien(int,\ int)
+comment3.params=name
+comment3.target=java.lang.String\ rapperName(java.lang.String)
+numComments=4
