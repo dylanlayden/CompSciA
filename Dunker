@@ -1,0 +1,52 @@
+
+
+public class Dunker
+{
+    private int feathers;
+    private int age;
+    private String dunkName;
+    
+    public Dunker(){
+        feathers=1000;
+        age=150;
+        dunkName = "default";
+        
+    }
+    
+    public Dunker(String DunkName, int feathers, int age){
+        feathers= this.feathers;
+        age= this.age;
+        dunkName = "name";
+        
+    }
+    
+    public String getDunkName()
+    {return dunkName;}
+    
+    public int getFeathers()
+    {return feathers;}
+    
+    public int getAge()
+    {return age;}
+    
+    public void setDunkName(String name){
+        dunkName = name;
+    }
+    
+    public void setFeathers(int feathersVal){
+        feathers= feathersVal;
+    }
+    
+    public void setAge(int ageVal){
+        age= ageVal;
+    }
+    
+    public String toString(){
+        return "Player Name:" + dunkName + " Feathers:"+ feathers +" Age:"+ age;
+        
+        
+    }
+    
+    
+    
+}
