@@ -1,0 +1,30 @@
+
+
+public class Chicken extends Dunker
+{
+    private String rapName;
+
+    
+    public Chicken(){
+        super();
+        rapName = "Doug";
+    }
+    
+    public Chicken(String DunkN, int feathers, int age, String rapName)
+    {
+        super(DunkN, feathers, age);
+        this.rapName = rapName;
+    }
+    
+    public void grow(){
+        int feathers = super.getFeathers()+1;
+        int age = super.getAge()+1;
+        super.setFeathers(feathers);
+        super.setAge(age);
+    }
+    
+    public String toString(){
+        return super.toString()+"Rap Name:"+ rapName;
+    }
+
+}
